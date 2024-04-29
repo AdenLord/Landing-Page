@@ -1,0 +1,24 @@
+@media screen and (max-width: 800px) {
+
+    #gallery{
+        min-width: 800px;
+        height: auto;
+    }
+
+    .gal-box{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 8rem 8rem 8rem;
+        row-gap: 10px;
+        column-gap: 40px;
+    }
+
+    .gal-box > h1{
+        font-size: 100px;
+        margin: 1.25rem 0;
+    }
+
+    .gal-box > p{
+        font-size: 60px;
+    }
+}
